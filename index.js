@@ -16,9 +16,3 @@ function receivesAFunction(callback) {
   receivesAFunction(function () {
     console.log("Callback function is called");
   });
-  
-  const namedFunc = returnsANamedFunction();
-  namedFunc();
-  
-  const anonymousFunc = returnsAnAnonymousFunction();
-  anonymousFunc();
